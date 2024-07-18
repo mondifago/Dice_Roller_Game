@@ -33,14 +33,23 @@ class Program
             }
         }
 
-        if (total >= 15)
+        if (total >= 16)
         {
-            Console.WriteLine("You win!");
+            Console.WriteLine("You win a CAR!!!!!");
+            return;
         }
-
-        else
+        if (total >= 10)
         {
-            Console.WriteLine("Sorry, you lose.");
+            Console.WriteLine("You win a new Laptop");
+            return;
+        }
+        if (total == 7)
+        {
+            Console.WriteLine("You win a Trip");
+        }
+        if (!(total>=16) || !(total >= 10)|| (total != 7))
+        {
+            Console.WriteLine("You win a kitten!");
         }
 
         Console.WriteLine("Grand Total = " + total);
