@@ -1,4 +1,5 @@
-﻿namespace Dice_Roller_Game;
+﻿using System;
+namespace Dice_Roller_Game;
 
 class Program
 {
