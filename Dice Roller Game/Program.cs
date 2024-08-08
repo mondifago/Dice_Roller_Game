@@ -53,6 +53,9 @@ class Program
         }
 
         Console.WriteLine("Grand Total = " + total);
+
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();  // Keeps the console window open
     }
 }
 
